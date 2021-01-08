@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bigboxone {
+    background-color: cyan;
+    width: 100%;
+    height: 10vh;
+    padding: 1px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: -15px;
+}
+
+.bigboxtwo {
+    border: 2px dotted black;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 100%;
+    padding: 20px;
+}
+
+.purple {
+    background-color: purple;
+    border: 3px solid red;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.blue {
+    border: 1px solid black;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 15px;
+    box-shadow: black 5px 5px 5px 0;
+}
+
+.pink {
+    border: 1px solid black;
+    background-color: palevioletred;
+    height: 170px;
+    width: 170px;
+    display: inline-block;
+}
+
+.bigboxthree {
+    border: 2px dotted black;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.topcircle {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    margin-left: 19px;
+}
+
+.middlecircle {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+.bottomcircle {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 110px;
+    width: 110px;
+    margin-left: 0;
+}
+
+.outerbox {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.greencircle {
+    border-radius: 50%;
+    background-color: green;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
+.bluecircle {
+    border-radius: 50%;
+    background-color: blue;
+    height:70px;
+    width: 70px;
+    margin-top: -19px;
+}
+
+p2 {
+    color: white;
+}
+
+.fish {
+    height: 110px;
+    float: right;
+    margin: -15px;
+}
+
+.face {
+    height: 40px;
+    margin: 20px;
+}
+
+.dots{
+    height: 15px;
+    margin: 20px;
+    transform: rotate(90deg);
+    margin: 30px 20px 15px 16px ;
+}
