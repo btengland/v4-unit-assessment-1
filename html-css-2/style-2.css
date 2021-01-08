@@ -108,6 +108,7 @@ p {
     height: 100px;
     width: 100px;
     margin: 25px;
+    clear: both;
 }
 
 .bluecircle {
@@ -120,6 +121,7 @@ p {
 
 p2 {
     color: white;
+    text-align: center;
 }
 
 .fish {
