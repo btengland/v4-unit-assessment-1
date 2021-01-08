@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = 'Git is a wonderful thing.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = 'GitHub is a place to store your work online.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,12 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+
+}
+
+init.description = 'init initializes git. Only needs to be done once'
+init.code = 'git init'
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +46,12 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+
+}
+
+clone.description = 'It give you your own copy to work on.'
+clone.code = 'git clone'
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +59,12 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {
+
+}
+
+status.description = 'Tells you the status of your git'
+status.code = 'git status'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +72,12 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {
+
+}
+
+add.description = 'Gets your save file ready.'
+add.code = 'git add'
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +85,12 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+
+}
+
+commit.description = 'Saves your code to your computer.'
+commit.code = 'git commit -m'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +98,12 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+const addRemote = {
+
+}
+
+addRemote.description = 'I actually have no idea. lol.'
+addRemote.code = 'git remote add origin'
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +111,9 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+
+}
+
+push.description = 'Saves your files to GitHub.'
+push.code = 'git push'
