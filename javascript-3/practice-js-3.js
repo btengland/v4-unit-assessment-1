@@ -57,7 +57,7 @@ function removeItem(index){
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-const checkGroceryCount = (groceries) => {
+const checkGroceryCount = (arr) => {
     if(groceries.length > 5){
         return 'That looks like a big trip'
     } else if(groceries.length === 1){
