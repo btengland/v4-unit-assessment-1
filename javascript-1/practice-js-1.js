@@ -32,7 +32,7 @@ function sum(num1, num2){
 */
 
 function trueOrFalse(data){
-  if(typeof data !== true){
+  if(data){
     return true
   } else {
     return false
@@ -125,7 +125,7 @@ me.greeter = function () {
   Return the answers array inside of the function.
 */
 
-/*function bigOrSmall(arr){
+function bigOrSmall(arr){
   let answers = []
   for(i = 0; i < arr.length; i++){
     if(arr[i] > 100){
@@ -133,11 +133,10 @@ me.greeter = function () {
       else {
         answers.push('small')
       }
-    }
+    } return answers
   }
-  return answers
-}
-*/
+
+
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -149,14 +148,14 @@ me.greeter = function () {
   Finally, return the 'reversed' array variable.
 */
 
-/*function arrayReverser(arr){
-  let reversed ()
+function arrayReverser(arr){
+  let reversed = []
   for(let i = arr.length - 1; i >= 0 ; i--){
     reversed.push(arr[i])
   }
   return reversed
 }
-*/
+
 
 
 //////////////////PROBLEM 14////////////////////
@@ -229,9 +228,10 @@ function isItBob(object, cb){
 */
 
 function giveMeDoubles(arr, cb){
-  for(let i = 0; i > arr.length; i++){
-    return cb([i] * [i])
+  for(let i = 0; i < arr.length; i++){
+    arr[i] *= 2
   }
+  return cb(arr)
 }
 
 //////////////////PROBLEM 18////////////////////
@@ -259,15 +259,16 @@ function giveMeDoubles(arr, cb){
   }
 */
 
-/*function carFactory(make, model, year){
-  let make = ()
-  let model = ()
-  let year = ()
-  if(year > 2018){
-    year.isNew = true
-  } else {
-    year.isNew = false
+function carFactory(make, model, year){
+  let object = {
+    make: make,
+    model: model,
+    year: year
   }
-  return carFactory ()
+  if(year > 2018){
+    object.isNew = true
+  } else {
+    object.isNew = false
+  }
+  return object
 }
-*/
